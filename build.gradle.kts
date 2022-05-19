@@ -2,8 +2,10 @@ plugins {
     kotlin("multiplatform") version "1.6.10"
     id("org.jetbrains.kotlinx.kover") version "0.5.0"
     id("com.adarshr.test-logger") version "3.2.0"
-
+    id("convention.publication")
 }
+
+//apply(from = "./customlogger.gradle.kts")
 
 group = "io.github.chardskarth"
 version = "0.0.1"
@@ -45,22 +47,6 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
-testlogger {
-    theme = com.adarshr.gradle.testlogger.theme.ThemeType.MOCHA
-    showExceptions = true
-    showStackTraces = false
-    showFullStackTraces = false
-    showCauses = true
-    slowThreshold = 2000
-    showSummary = false
-    showSimpleNames = true
-    showPassed = true
-    showSkipped = true
-    showFailed = true
-    showOnlySlow = false
-    showStandardStreams = false
-    showPassedStandardStreams = false
-    showSkippedStandardStreams = false
-    showFailedStandardStreams = false
-    logLevel = LogLevel.QUIET
+repositories {
+    gradlePluginPortal() // To use 'maven-publish' and 'signing' plugins in our own plugin
 }
