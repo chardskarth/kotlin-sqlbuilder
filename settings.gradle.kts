@@ -1,3 +1,3 @@
 
-rootProject.name = "kotlin-sql-query-builder"
+rootProject.name = "kotlin-sqlbuilder"
 

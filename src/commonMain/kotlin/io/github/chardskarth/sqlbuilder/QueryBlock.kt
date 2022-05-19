@@ -1,4 +1,4 @@
-package me.chardskarth.sqlbuilder
+package io.github.chardskarth.sqlbuilder
 
 class QueryBlock {
     private var left: String = ""

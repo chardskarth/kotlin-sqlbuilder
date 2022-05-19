@@ -1,4 +1,4 @@
-package me.chardskarth.sqlbuilder
+package io.github.chardskarth.sqlbuilder
 
 sealed class QueryPart(val queryBlock: () -> QueryBlock) {
     class SelectQueryPart(queryBlock: () -> QueryBlock): QueryPart(queryBlock)

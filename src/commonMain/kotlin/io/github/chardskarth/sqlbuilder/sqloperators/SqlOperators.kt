@@ -1,6 +1,6 @@
-package me.chardskarth.sqlbuilder.sqloperators
+package io.github.chardskarth.sqlbuilder.sqloperators
 
-import me.chardskarth.sqlbuilder.QueryBlock
+import io.github.chardskarth.sqlbuilder.QueryBlock
 
 fun eq(field: String, value: String, useRawValue: Boolean = false): QueryBlock {
     return QueryBlock(field, "=", if (useRawValue) value else "?")

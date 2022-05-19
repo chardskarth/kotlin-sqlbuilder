@@ -1,10 +1,10 @@
-package me.chardskarth.sqlbuilder
+package io.github.chardskarth.sqlbuilder
 
-import me.chardskarth.sqlbuilder.QueryPart.LimitQueryPart
-import me.chardskarth.sqlbuilder.QueryPart.SelectQueryPart
-import me.chardskarth.sqlbuilder.QueryPart.WhereQueryPart
-import me.chardskarth.sqlbuilder.exception.FromTableNotSpecifiedException
-import me.chardskarth.sqlbuilder.extension.letOrEmptyString
+import io.github.chardskarth.sqlbuilder.QueryPart.LimitQueryPart
+import io.github.chardskarth.sqlbuilder.QueryPart.SelectQueryPart
+import io.github.chardskarth.sqlbuilder.QueryPart.WhereQueryPart
+import io.github.chardskarth.sqlbuilder.exception.FromTableNotSpecifiedException
+import io.github.chardskarth.sqlbuilder.extension.letOrEmptyString
 import kotlin.text.RegexOption.MULTILINE
 
 data class QueryBuilder(

@@ -5,7 +5,7 @@ plugins {
 
 }
 
-group = "me.chardskarth"
+group = "io.github.chardskarth"
 version = "0.0.1"
 
 repositories {

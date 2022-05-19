@@ -1,9 +1,9 @@
-package me.chardskarth.sqlbuilder
+package io.github.chardskarth.sqlbuilder
 
-import me.chardskarth.sqlbuilder.QueryPart.LimitQueryPart
-import me.chardskarth.sqlbuilder.QueryPart.SelectQueryPart
-import me.chardskarth.sqlbuilder.QueryPart.WhereQueryPart
-import me.chardskarth.sqlbuilder.dsl.eq
+import io.github.chardskarth.sqlbuilder.QueryPart.LimitQueryPart
+import io.github.chardskarth.sqlbuilder.QueryPart.SelectQueryPart
+import io.github.chardskarth.sqlbuilder.QueryPart.WhereQueryPart
+import io.github.chardskarth.sqlbuilder.dsl.eq
 import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -1,14 +1,14 @@
-package me.chardskarth.sqlbuilder
+package io.github.chardskarth.sqlbuilder
 
-import me.chardskarth.sqlbuilder.dsl.and
-import me.chardskarth.sqlbuilder.dsl.eq
-import me.chardskarth.sqlbuilder.dsl.greater
-import me.chardskarth.sqlbuilder.dsl.less
-import me.chardskarth.sqlbuilder.dsl.like
-import me.chardskarth.sqlbuilder.dsl.notInList
-import me.chardskarth.sqlbuilder.dsl.or
-import me.chardskarth.sqlbuilder.exception.FromTableNotSpecifiedException
-import me.chardskarth.sqlbuilder.sqloperators.sub
+import io.github.chardskarth.sqlbuilder.dsl.and
+import io.github.chardskarth.sqlbuilder.dsl.eq
+import io.github.chardskarth.sqlbuilder.dsl.greater
+import io.github.chardskarth.sqlbuilder.dsl.less
+import io.github.chardskarth.sqlbuilder.dsl.like
+import io.github.chardskarth.sqlbuilder.dsl.notInList
+import io.github.chardskarth.sqlbuilder.dsl.or
+import io.github.chardskarth.sqlbuilder.exception.FromTableNotSpecifiedException
+import io.github.chardskarth.sqlbuilder.sqloperators.sub
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
