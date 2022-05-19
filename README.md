@@ -1,5 +1,4 @@
 # Kotlin SQLBuilder - A small, lightweight multiplatform library
-![alt Zeko SQL Builder](./logo.svg "Zeko lightweight SQL Builder")
 
 <p align="left">
     <a href="LICENSE">
@@ -12,13 +11,13 @@
 
 Kotlin SQLBuilder is a lightweight SQL query builder library written in Kotlin Multiplatform.
 
-This project is inspired by [Zeko SQL Builder]() and is targeted to have a fun dsl to work with.
+This project is inspired by [Zeko SQL Builder](https://github.com/darkredz/Zeko-SQL-Builder) and is targeted to have a fun dsl to work with.
 
 Feel free to contact me as well if you want to work and improve this library with me!
 
 ## Project Features
 - Kotlin multiplatform.
-- Kotlin tests and [kotlinx-kover]().
+- Kotlin tests and [kotlinx-kover](https://github.com/Kotlin/kotlinx-kover).
 - No dependencies.
 
 ## TODO
@@ -43,5 +42,6 @@ val sqlBuilder = QueryBuilder {                  // Also has a friendly, dsl sup
 See [tests]() for more examples on usage.
 
 ## Adding to your project via maven central
+WIP
 
 
